@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-// Define 'main' to run app
+void main() {
 
 // Create text widget
 
 // Render widget
+
+}
