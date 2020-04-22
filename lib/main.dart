@@ -1,4 +1,4 @@
-// Import helper lib to render app
+import 'package:flutter/material.dart';
 
 // Define 'main' to run app
 
