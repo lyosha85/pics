@@ -10,9 +10,9 @@ void main() {
         onPressed: () {
           print('hi thjere!');
         },
+        child: Text('+')
       ),
     ),
   );
-
   runApp(app);
 }
