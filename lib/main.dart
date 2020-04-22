@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 
 void main() {
 
-// Create text widget
+   var app = MaterialApp(
+     home: Text('Hi There!'),
+   );
 
 // Render widget
 
