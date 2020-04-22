@@ -10,7 +10,7 @@ void main() {
         onPressed: () {
           print('hi thjere!');
         },
-        child: Text('+')
+        child: Icon(Icons.add),
       ),
     ),
   );
