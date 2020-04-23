@@ -2,6 +2,20 @@ import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
 
+  Widget build(context){
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Lets see some images!'),
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            print('hi thjere!');
+          },
+          child: Icon(Icons.add),
+        ),
+      ),
+    );
+  }
 }
 
-// Define a 'build' method that returns the widgets that *this* widget shows
